@@ -27,7 +27,7 @@
 スケールは小さくなったが、真剣さは変わらない。いや、自分の財布が痛む分、今の方が必死かもしれない。  
 梨奈は「はいはい」と軽く受け流すと、開店の準備に取り掛かった。
 
-\<video src="assets/visual\_2\_rina\_open.mp4" autoplay loop muted playsinline class="scene-video"\>\</video\>
+<video src="assets/visual_2_rina_open.mp4" autoplay loop muted playsinline class="scene-video"></video>
 
 彼女が「OPEN」の看板をかける。  
 その背中に、初夏の陽射しが降り注いでいた。  
@@ -44,7 +44,7 @@
 鉄板の上で、肉が悲鳴にも似た歓声を上げる。  
 一番好きな音だ。  
 だが同時に、それはコスト（ガス代）が発生している音でもある。  
-\<video src="assets/visual\_3\_steak\_sizzle.mp4" autoplay loop muted playsinline class="scene-video"\>\</video\>
+<video src="assets/visual_3_steak_sizzle.mp4" autoplay loop muted playsinline class="scene-video"></video>
 
 「火力調整！ ガス代の無駄だ！」
 
@@ -83,7 +83,7 @@
 
 私は思わず声を上げ、彼女の手首を掴もうとした。
 
-\<img src="assets/visual\_4\_conflict.png" class="scene-image"\>
+<img src="assets/visual_4_conflict.jpg" class="scene-image">
 
 「今、指が動いたな？  
 こっそり二切れ追加しようとしただろ」  
@@ -125,7 +125,7 @@
 
 梨奈は口笛を吹きながら、片付けをしている。  
 その口元には、さっき味見と称してつまみ食いしたソースが少しついている気がした。  
-\<video src="assets/visual\_5\_rina\_tasting.mp4" autoplay loop muted playsinline class="scene-video"\>\</video\>
+<video src="assets/visual_5_rina_tasting.mp4" autoplay loop muted playsinline class="scene-video"></video>
 
 （犯人は明白だ……）
 
@@ -144,7 +144,7 @@
 
 私たちは笑い合い、キャンピングチェアを並べてコーヒーを淹れた。
 
-\<video src="assets/visual\_6\_sunset\_ending.mp4" autoplay loop muted playsinline class="scene-video"\>\</video\>
+<video src="assets/visual_6_sunset_ending.mp4" autoplay loop muted playsinline class="scene-video"></video>
 
 空は紫とオレンジのグラデーションに溶けていく。  
 硝子の箱の中にいた頃には見えなかった、鮮やかな世界。  
@@ -158,6 +158,6 @@
 
 1gの攻防は、明日も続く。  
 けれど、この境界線の向こう側には、きっと自由がある。  
-\<div class="choice-buttons"\>  
-  \<a href="index.html" class="choice-btn"\>トップに戻る\</a\>  
-\</div\>
+<div class="choice-buttons">  
+  <a href="index.html" class="choice-btn">トップに戻る</a>  
+</div>
