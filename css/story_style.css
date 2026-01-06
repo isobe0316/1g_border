@@ -1,0 +1,166 @@
+/* 基本設定 */
+:root {
+    --text-color: #333;
+    --bg-color: #f9f9f9;
+    --accent-color: #ffab91;
+    --glass-bg: rgba(255, 255, 255, 0.85);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    background-color: #333;
+    color: var(--text-color);
+    line-height: 1.8;
+}
+
+/* 背景画像(ぼかし) */
+.bg-layer {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background-image: url('../assets/bg_foodtruck_anime.jpg'); /* デフォルト背景 */
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px) brightness(0.7);
+    z-index: -1;
+}
+
+/* コンテナ */
+.reader-container {
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background: var(--glass-bg);
+    box-shadow: 0 0 50px rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px);
+}
+
+/* ナビゲーション */
+.nav-bar {
+    position: sticky;
+    top: 0;
+    padding: 1rem 1.5rem;
+    background: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.back-btn {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    background: #eee;
+    transition: all 0.3s;
+}
+
+.back-btn:hover {
+    background: var(--accent-color);
+    color: white;
+}
+
+.story-title {
+    font-weight: bold;
+    color: #333;
+    font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 本文エリア */
+.markdown-body {
+    padding: 2rem 1.5rem 4rem;
+}
+
+/* --- タイポグラフィ --- */
+h1 {
+    font-family: 'Shippori Mincho', serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 1rem;
+}
+
+h2 {
+    font-family: 'Shippori Mincho', serif;
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    color: #444;
+    border-left: 5px solid var(--accent-color);
+    padding-left: 1rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    font-size: 1.05rem;
+}
+
+/* --- 動画・画像スタイル --- */
+.scene-video, .scene-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 2rem 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    display: block;
+}
+
+/* 選択肢ボタンエリア */
+.choice-buttons {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px dashed #ccc;
+    text-align: center;
+}
+
+.choice-btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: transform 0.2s;
+    margin: 0.5rem;
+}
+
+.choice-btn:hover {
+    background: var(--accent-color);
+    transform: translateY(-2px);
+}
+
+/* ローディング */
+.loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    color: #666;
+}
+.spinner {
+    width: 40px; height: 40px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid var(--accent-color);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 1rem;
+}
+@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+/* モバイル対応 */
+@media (max-width: 600px) {
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.5rem; }
+    .markdown-body { padding: 1rem; }
+}

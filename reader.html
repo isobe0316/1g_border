@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ストーリーリーダー</title>
+    <!-- フォント読み込み -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;700&family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- スタイルシート -->
+    <link rel="stylesheet" href="css/story_style.css">
+    
+    <!-- Markdownパーサー (Marked.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <!-- 背景レイヤー（ぼかし） -->
+    <div class="bg-layer"></div>
+
+    <!-- メインコンテンツ -->
+    <div class="reader-container">
+        <!-- ナビゲーション -->
+        <nav class="nav-bar">
+            <a href="index.html" class="back-btn">← Home</a>
+            <span id="story-title" class="story-title">Loading...</span>
+        </nav>
+
+        <!-- 記事本文エリア -->
+        <article id="content-area" class="markdown-body">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Loading Story...</p>
+            </div>
+        </article>
+
+        <!-- フッター -->
+        <footer class="reader-footer">
+            <p>&copy; 2026 The 1g Border Project</p>
+        </footer>
+    </div>
+
+
+
+
+</html></body>    <script src="js/story_reader.js"></script>n    <!-- スクリプト -->
