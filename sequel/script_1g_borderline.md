@@ -1,3 +1,143 @@
+制作台本：『1gの境界線』 (The 1g Border)
+
+ジャンル: ほのぼの / 日常 / 飯テロ / 偽サスペンス
+
+登場人物:
+- 阿久斗（Akuto）: キッチンカー店長。元経理。「たった1gの差が勝負（経営）を決める」と信じている男。
+- 梨奈（Rina）: 接客担当。元後輩。お客さんの笑顔（と大盛り）が好きな共犯者。
+
+---
+
+シーン1：Dead Line（開店準備）
+【状況】晴れた公園。キッチンカーの開店準備中。阿久斗が梨奈に、まるで爆弾処理のような緊張感で「肉の計量」を指示している。まな板の上には、**焼く前の分厚いステーキ肉（一枚肉）**が鎮座している。
+
+【セリフ】
+阿久斗：「いいか、梨奈。飲食店の倒産理由第一位はなんだ」
+梨奈：「えーと、味がまずい？」
+阿久斗：「違う。どんぶり勘定による資金ショートだ。　今日の損益分岐点はシビアだ。提供量は一人前150gジャスト。　プラスマイナスゼロ。この1gが勝負を決める」
+梨奈：「お肉のカットって難しいですよ？ 毎回150gなんて無理です」
+阿久斗：「だから、私がカットする。　厚切りで焼いて旨味を閉じ込め、提供直前に薄くスライスする。　足りない時は、この**『調整用カット（端材）』**で微調整する」
+梨奈：「……うわぁ。お客さん、端っこばっかり嫌がりますよ？」
+
+【Visual 1: 背景・設定画 (Nano Banana)】
+スタイル: アニメ調（タイトルバック用）
+推奨ファイル名: bg_foodtruck_anime.jpg
+プロンプト (English): Anime style background art. A wide establishing shot of a vintage beige Citroën H Van food truck parked in a sunny park in Japan. The truck has a distinctive corrugated metal body and a large serving window. A blackboard menu stands in front. Blue sky with fluffy white clouds, green trees with dappled sunlight. Soft, warm atmosphere, high quality, Makoto Shinkai style.
+
+---
+
+シーン2：The Ignition（点火）
+【状況】鉄板の上で分厚い一枚肉が焼ける音と映像。シズル感たっぷりに。
+
+【セリフ】
+（ジュワ〜ッという激しい焼ける音）
+阿久斗：「火力調整！ 表面温度200度をキープだ！」
+梨奈：「先輩！ 見てください、この焼き色！　やっぱり厚切りはロマンですね……！」
+
+【Visual 2: 動画 (Veo3 / Luma)】
+スタイル: リアル調（生成済みの画像を使用）
+アクション: 梨奈が「OPEN」の看板をかけ、呆れたように、でも楽しそうに微笑む。
+使用画像 (リネーム推奨): rina_apron.png (元: 1000023702.png)
+推奨動画ファイル名: visual_2_rina_open.mp4
+プロンプト (English): Note: Upload Rina's face image (rina_apron.png).The woman from the reference image stands in front of a food truck. She hangs a wooden "OPEN" sign. She turns to the camera, shrugs her shoulders playfully, and smiles. Sunlight, gentle breeze.
+
+【Visual 3: 動画 (Veo3 / Luma)】
+スタイル: リアル調（飯テロ）
+アクション: 鉄板の上で焼ける大きなステーキ肉。推奨動画ファイル名: visual_3_steak_sizzle.mp4
+プロンプト (English): Extreme close-up cinematic video of a thick, juicy beef steak (whole piece) grilling on a hot iron griddle. Sizzling sound implied. Juices bubbling, steam rising rapidly. Delicious, mouth-watering food cinematography. 4k resolution.
+
+---
+
+シーン3：The Border（攻防）
+【状況】狭いキッチンカーの中。盛り付け作業中の攻防。阿久斗が焼き上がった厚切り肉を薄くスライスし、秤に乗せている。
+
+【セリフ】
+阿久斗：「……よし、今148gだ。あと2g足りない。　この『脂身の切れ端』を乗せれば、ジャスト150gだ」
+梨奈：「ストップ！！ そんな脂っこい端っこ、可哀想です！」
+阿久斗：「なっ、何を……」
+梨奈：「えいっ（ドサッ）」
+阿久斗：「おい！！ 今、スライスを2枚も追加したな！？」
+梨奈：「サービスです」
+阿久斗：「その2枚で30gはあるぞ！ 合計180gだ！　原価率が崩壊する！！」
+梨奈：「でも店長、見てください。あの子、受験生ですよ？　脂身の端っこより、赤身の方が脳にいいんです」
+阿久斗：「くっ……！ 既成事実を作るな！」
+
+【Visual 4: 動画 (Veo3 / Luma)】
+スタイル: リアル調（他のキャラ画像と合わせる）
+内容: 必死に止める阿久斗と、小さなトングで2枚のスライス肉を掴む梨奈。
+使用画像 (リネーム推奨): akuto_apron.jpg (元: Gemini_Generated_Image_aaq5w7aaq5w7aaq5.jpg) rina_apron.png (元: 1000023702.png)
+推奨ファイル名: visual_4_conflict.mp4
+プロンプト (English): Note: Upload the reference images of Akuto (akuto_apron.jpg) and Rina (rina_apron.png).Cinematic video inside a food truck. The Japanese woman (Rina) from the reference image, wearing a green apron, uses small tongs to grab exactly 2 slices of steak from the cutting board. She is about to drop the meat into a bowl. The Japanese man (Akuto) from the reference image, looks shocked and panicked, reaching out his hand to stop her. He has a desperate expression (not angry, but worried about the cost). He is speaking Japanese ("Matte!" or "Wait!"). Dynamic movement, focus on the conflict and the meat. High quality.
+
+【Visual 5: 動画 (Veo3 / Luma)】
+スタイル: リアル調
+アクション: 味見をして、至福の表情を浮かべる梨奈（共犯の味）。
+使用画像 (リネーム推奨): rina_apron.png (元: 1000023702.png)
+推奨ファイル名: visual_5_rina_tasting.mp4
+プロンプト (English): Note: Upload Rina's face image (rina_apron.png).Interior shot inside the cramped kitchen of a food truck. Background shows stainless steel walls and cooking equipment, NO outdoor scenery. The woman (Rina) in a green apron holds a small, delicate teaspoon. She takes a tiny taste of the sauce from the tip of the spoon. She closes her mouth and savors the flavor gently with her eyes closed. Then she opens her eyes and smiles happily. She whispers "Oishii" (Delicious) in Japanese. Indoor lighting.
+
+---
+
+シーン4：Settlement（決算）
+【状況】夕暮れ時。片付けを終えて一息つく二人。
+
+【セリフ】
+梨奈：「完売ですね！ お疲れ様でした、店長！」
+阿久斗：「……おかしい。計算上の在庫と、売上が合わない。　ブロック肉一本分、丸ごと消えている計算になる」
+梨奈：「不思議ですねぇ。焼いて縮んだんじゃないですか？」
+阿久斗：「……まあいい。　お客さんが笑ってたから、今日のところは『特別損失』で処理しておく」
+梨奈：「ふふ、先輩も甘くなりましたね」
+
+【Visual 6: 動画 (Veo3 / Luma)】
+スタイル: リアル調（シルエット）
+アクション: 夕暮れの公園でコーヒーを飲む二人の後ろ姿。
+推奨ファイル名: visual_6_sunset_ending.mp4
+プロンプト (English): A cinematic back shot of two people (a man and a woman in aprons) sitting on camping chairs next to a food truck at sunset. They are relaxing with coffee cups. Orange and purple sky, silhouette style. Peaceful atmosphere.
+
+---
+
+音楽 (Main Theme Song)
+曲名: 『Borderline of 1g』
+ジャンル: Electro Swing / Pop Jazz (Upbeat, Comical)
+推奨ファイル名: op_theme_1g.mp3
+Suno AI / Udio Prompt:Electro Swing, Upbeat Jazz, Pop, Male Vocals, Playful, Comical, Fast Tempo, 130bpm
+
+Lyrics (Full Ver.):
+[Verse 1]
+(Tick-tack, Tick-tack)計算どおりのレシピ150グラムの　Golden Ruleはみ出しちゃダメ　許さないそれが　My Pride, My Soulでも君は笑って　(Oops!)そっと足しちゃう　Secret Spice「おまけです」なんて　Wink崩れてく　My Logic
+[Chorus 1]1gの境界線　(Borderline!)ゆらゆら揺れる　Profit & Lossダメだって言ってるのに君が盛るたび　恋になる
+[Verse 2](Ring-ring, Ring-ring)閉店後の静寂(サイレンス)帳簿とにらめっこ　Lonely Night数字は嘘をつかないけれど君の笑顔は　Unpredictable「先輩、これ食べて」 (Wow!)差し出す失敗作の　Sweet Tart甘すぎるけど　Not Bad狂わされる　My Pace
+[Chorus 2]1gの攻防戦　(Dangerous!)赤字覚悟の　Big Surprise計算外の未来へ二人で走る　Kitchen Car
+[Bridge]かつての暗闇(ダーク)な日々も今はスパイスに変えて君となら　どんな赤字も黒字(ハッピー)にできる気がする
+[Chorus 3]1gの境界線　(Borderline!)飛び越えていく　Side by Side完璧じゃなくていい君がいれば　Perfect Days
+[Outro](Tasty, Happy, 1g more...)明日も　戦いは続く(Borderline of Love...)
+
+エンディング (ED Theme Song)
+曲名: 『ふたりの損益（Futari no PL）』
+ジャンル: Acoustic Ballad / J-Pop (Emotional, Warm)
+ボーカルイメージ: 女性ボーカル（梨奈の声イメージ：透明感があり、少し甘い声）
+推奨ファイル名: ed_theme_futari_pl.mp3
+Suno AI / Udio Prompt:Acoustic Guitar, Piano Ballad, J-Pop, Female Vocals, Emotional, Warm, Gentle, Slow Tempo, 80bpm
+
+Lyrics (Full Ver.):
+[Verse 1]雨上がりの空にキッチンカー　並んで見上げた先輩の横顔は　まだ少し硬いけどその眼鏡の奥　優しさ知ってるよ完璧な計算も　合わない帳簿も全部　ふたりで分け合おう
+[Chorus 1]1gの勇気を　ありがとう共犯者じゃなくて　パートナーとして明日もまた　ここから始めようおいしい匂いと　あなたの隣で
+[Verse 2]硝子(ガラス)の箱の中息もできず　震えていた日々でも今は　風が吹く青空の下　嘘のない場所あなたが守ってくれたから私もあなたを　守り続けるよ
+[Chorus 2]涙の数だけ　強くなれたね損益(マイナス)も　愛しさ(プラス)に変えて不揃いな未来　抱きしめて行こうどんな嵐も　二人なら怖くない
+[Bridge]時々　思い出すのあの雨の日の決意を壊したから　出会えた景色もう二度と　離さない
+[Chorus 3]1gの幸せを　重ねていこう終わりのない　旅路の途中世界で一番　温かい場所はきっとあなたの　左側だから
+[Outro](La la la...)あなたと作る　優しい決算(エンディング)ふたりの損益　ずっと黒字で
+
+タイトルロゴ案
+日本語: 1gの境界線
+英語: The 1g Border
+
+追加ビジュアル: End Card (Ending)
+【Visual 7: エンドカード (Nano Banana)】
+スタイル: アニメ調（夕暮れ）
+推奨ファイル名: bg_foodtruck_sunset_anime.jpg
+用途: 動画の最後、真っ黒な画面の代わりに表示する。
+プロンプト (English):Anime style background art. A vintage beige Citroën H Van food truck parked in a park at sunset. The sky is painted in vibrant gradients of orange, purple, and deep blue. The "OPEN" sign is flipped to "CLOSED". Warm lights are glowing inside the truck. Sentimental, beautiful atmosphere, Makoto Shinkai style.
 # **制作台本：『1gの境界線』(The 1g Border)**
 
 ジャンル: ほのぼの / 日常 / 飯テロ / 偽サスペンス  
