@@ -29,7 +29,7 @@ BGM_FILE = "op_theme_1g.mp3"
 SCENARIO = [
     {
         "type": "image",
-        "file": "bg_foodtruck_anime.png",
+        "file": "bg_foodtruck_anime.jpg",
         "duration": 5,
         "subtitle": "阿久斗「いいか、梨奈。飲食店の倒産理由第一位はなんだ」"
     },
@@ -47,7 +47,7 @@ SCENARIO = [
     },
     {
         "type": "image",
-        "file": "visual_4_conflict.png",
+        "file": "visual_4_conflict.jpg",
         "duration": 5,
         "subtitle": "阿久斗「この1gが勝負を決める！」\n梨奈「151gじゃダメなんですか？」"
     },
@@ -66,7 +66,7 @@ SCENARIO = [
     # タイトル画面（アニメ背景）
     {
         "type": "title_card", 
-        "file": "bg_foodtruck_anime.png", 
+        "file": "bg_foodtruck_anime.jpg", 
         "main_title": "1gの境界線",
         "sub_title": "The 1g Border",
         "duration": 5,

@@ -20,21 +20,11 @@ document.addEventListener('DOMContentLoaded', () => {
             // Marked.jsの設定（HTMLタグを許可）
             marked.setOptions({
                 headerIds: false,
-                mangle: false,
-                gfm: true,
-                breaks: false,
-                sanitize: false
+                mangle: false
             });
 
             // MarkdownをHTMLに変換して表示
-            const rendered = marked.parse(markdown);
-            console.log('[story_reader] rendered HTML preview:', rendered.slice(0, 500));
-            contentArea.innerHTML = rendered;
-
-            // レンダリング後の動画・画像要素の有無をログ出力
-            const postVideos = contentArea.querySelectorAll('video');
-            const postImages = contentArea.querySelectorAll('img');
-            console.log('[story_reader] videos found after render:', postVideos.length, 'images:', postImages.length);
+            contentArea.innerHTML = marked.parse(markdown);
 
             // タイトルを設定（最初のH1タグの中身を取得）
             const h1 = contentArea.querySelector('h1');
@@ -43,8 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.title = h1.textContent + " - ストーリーリーダー";
             }
 
-            // 動画の自動再生制御（Intersection Observer）をセットアップ
-            setupVideoObserver();
+            // 動画のセットアップ
+            setupVideos();
         })
         .catch(error => {
             console.error('Error:', error);
@@ -56,6 +46,13 @@ document.addEventListener('DOMContentLoaded', () => {
  * 動画が画面内に入った時だけ再生する処理
  */
 function setupVideoObserver() {
+    // 旧関数名を使っている場合もあるため、新しい実装を用意
+}
+
+/**
+ * 動画の設定と制御
+ */
+function setupVideos() {
     const videos = document.querySelectorAll('video');
     
     // オプション: 画面の50%が見えたら反応
@@ -71,6 +68,8 @@ function setupVideoObserver() {
             
             if (entry.isIntersecting) {
                 // 画面に入った -> 再生
+                // ※音声を出すにはユーザー操作が必要なため、まずはミュートで再生を試みる
+                video.muted = true; 
                 video.play().catch(e => console.log("Autoplay blocked:", e));
             } else {
                 // 画面から出た -> 一時停止
@@ -80,9 +79,14 @@ function setupVideoObserver() {
     }, options);
 
     videos.forEach(video => {
-        observer.observe(video);
-        // 初期設定：音ミュート、インライン再生（スマホ用）
+        // コントローラーを表示（これでユーザーが音量操作できる）
+        video.controls = true;
+        
+        // 初期設定：ミュート、インライン再生
         video.muted = true;
         video.playsInline = true;
+        
+        // 自動再生の監視を開始
+        observer.observe(video);
     });
 }

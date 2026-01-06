@@ -37,10 +37,10 @@
 * **アクション:** 梨奈が「OPEN」の看板をかけ、呆れたように、でも楽しそうに微笑む。
 * **使用画像 (リネーム推奨):**
 
-  * rina\_apron.png (元: 1000023702.png)
+  * rina\_apron.jpg (元: 1000023702.png)
 
 * **推奨動画ファイル名:** visual\_2\_rina\_open.mp4
-* \*\*プロンプト (English):\*\*Note: Upload Rina's face image (rina\_apron.png).  
+* \*\*プロンプト (English):\*\*Note: Upload Rina's face image (rina\_apron.jpg).  
   The woman from the reference image stands in front of a food truck. She hangs a wooden "OPEN" sign. She turns to the camera, shrugs her shoulders playfully, and smiles. Sunlight, gentle breeze.
 
 ## **シーン2：The Ignition（点火）**
@@ -87,10 +87,10 @@
 * **使用画像 (リネーム推奨):**
 
   * akuto\_apron.jpg (元: Gemini\_Generated\_Image\_aaq5w7aaq5w7aaq5.jpg)
-  * rina\_apron.png (元: 1000023702.png)
+  * rina\_apron.jpg (元: 1000023702.png)
 
 * **推奨ファイル名:** visual\_4\_conflict.jpg
-* \*\*プロンプト (English):\*\*Note: Upload the reference images of Akuto (akuto\_apron.jpg) and Rina (rina\_apron.png).  
+* **プロンプト (English):**Note: Upload the reference images of Akuto (akuto\_apron.jpg) and Rina (rina\_apron.jpg).  
   A candid photograph inside a food truck. The Japanese man with glasses (Akuto) from the reference image wears a green apron and looks panicked, trying to stop the Japanese woman (Rina) from the reference image with his hand. Rina, also in a green apron, holds a ladle over a food container with a mischievous smile. Realistic style, consistent with previous character images.
 
 **【Visual 5: 動画 (Veo3 / Luma)】**
@@ -99,10 +99,10 @@
 * **アクション:** 味見をして、至福の表情を浮かべる梨奈（共犯の味）。
 * **使用画像 (リネーム推奨):**
 
-  * rina\_apron.png (元: 1000023702.png)
+  * rina\_apron.jpg (元: 1000023702.png)
 
 * **推奨動画ファイル名:** visual\_5\_rina\_tasting.mp4
-* \*\*プロンプト (English):\*\*Note: Upload Rina's face image (rina\_apron.png).  
+* **プロンプト (English):**Note: Upload Rina's face image (rina\_apron.jpg).  
   The woman (Rina) in a green apron inside a food truck. She holds a small, delicate teaspoon. She takes a tiny taste of the sauce from the tip of the spoon. She closes her mouth and savors the flavor gently with her eyes closed. Then she opens her eyes and smiles happily. Cute and elegant tasting gesture.
 
 ## **シーン4：Settlement（決算）**
