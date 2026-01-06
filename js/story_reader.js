@@ -20,11 +20,21 @@ document.addEventListener('DOMContentLoaded', () => {
             // Marked.jsの設定（HTMLタグを許可）
             marked.setOptions({
                 headerIds: false,
-                mangle: false
+                mangle: false,
+                gfm: true,
+                breaks: false,
+                sanitize: false
             });
 
             // MarkdownをHTMLに変換して表示
-            contentArea.innerHTML = marked.parse(markdown);
+            const rendered = marked.parse(markdown);
+            console.log('[story_reader] rendered HTML preview:', rendered.slice(0, 500));
+            contentArea.innerHTML = rendered;
+
+            // レンダリング後の動画・画像要素の有無をログ出力
+            const postVideos = contentArea.querySelectorAll('video');
+            const postImages = contentArea.querySelectorAll('img');
+            console.log('[story_reader] videos found after render:', postVideos.length, 'images:', postImages.length);
 
             // タイトルを設定（最初のH1タグの中身を取得）
             const h1 = contentArea.querySelector('h1');
